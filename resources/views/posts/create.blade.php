@@ -39,7 +39,7 @@
 
            
     		{{ Form::label('body', 'Blog post:') }}
-    		{{ Form::textarea('body', null, array('class' => 'form-control', 'id' => 'summernote', 'name' => 'editordata'))}}
+    		{{ Form::textarea('body', null, array('class' => 'form-control'))}}
 
     		{{ Form::submit('Create Post', array('class' => 'btn btn-success btn-lg btn-block', 'style' => 'margin-top: 20px'))}}
 			{!! Form::close() !!}
