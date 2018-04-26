@@ -5,15 +5,6 @@
 @section('stylesheets')
 
 {!! Html::style('css/select2.min.css') !!}
-<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
-
-<script>
-        tinymce.init ({
-            selector: 'textarea',
-            plugins: 'link',
-        });
-        
-    </script>
 
 @section('content')
 	
@@ -33,8 +24,8 @@
 			{{ Form::select('tags[]', $tags, null, ['class' => 'form-control select2-multi', 'multiple' => 'multiple']) }}
 
 
-			{{ Form::label('body', "Body:", ['class' =>'form-spacing-top']) }}
-			{{ Form::textarea('body', null, ['class' => 'form-control']) }}
+			{{ Form::label('body', 'Blog post:') }}
+    		{{ Form::textarea('body', null, array('class' => 'form-control', 'id'=>'summernote', 'name'=>'editordata'))}}
 		</div>
 		<div class="col-md-4">
 			<div class="well">
@@ -77,5 +68,10 @@
      	$('.select2-multi').select2();
      	
  	</script>
+ 	<script>
+    $(document).ready(function() {
+    $('#summernote').summernote();
+    });
+ </script>
 
  @endsection
