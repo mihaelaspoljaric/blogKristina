@@ -6,7 +6,7 @@
 
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<img src="{{ asset('images/' . $post->image) }}" height="400" width="800"/>
+			
 			<h1>{{ $post->title }}</h1>
 			<p>{!! $post->body !!}</p>
 			<hr>
@@ -53,7 +53,7 @@
 						{{ Form::label('comment', 'Comment:') }}
 						{{ Form::textarea('comment', null, ['class' => 'form-control', 'rows' => '5']) }}
 
-						{{ Form::submit('Add Comment', ['class' => 'btn btn-success btn-block','style' => 'margin-top: 15px;']) }}
+						{{ Form::submit('Add Comment', ['class' => 'btn btn-info btn-block','style' => 'margin-top: 15px;']) }}
 					</div>
 				
 			{{ Form::close() }}

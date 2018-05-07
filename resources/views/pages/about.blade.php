@@ -5,11 +5,14 @@
 @section('content')
 
     <div class="container">
+      <div class="img_holder">
+      <img src="images/aboutme.jpeg" class="rounded-circle bordered" alt="Kristina">
+    </div>
 
       <div class="row">
         <div class="col-md-12">
           <h1>About Me</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aspernatur quas quibusdam veniam sunt animi, est quos optio explicabo deleniti inventore unde minus, tempore enim ratione praesentium, cumque, dolores nesciunt?</p>
+          <p>Hello everyone, my name is Kristina and I come from Croatia. Currently I am living in Vietnam and enjoying this beautiful country working as an English teacher. My goal is to travel all throughout Vietnam and other Asian countries. I love capturing moments and places from my travels, so I can feel like I’m always travelling. Enjoy my journey!</p>
         </div>
       </div>
 
