@@ -18,6 +18,7 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+          
           <ul class="nav navbar-nav navbar-center">
             <li class="@yield('ActiveInstagram')"><a href="https://www.instagram.com/kiki_sp711/?hl=hr" target="_blank"><img class="instagram" src="/images/instagram.png"></a></li>
             <li class="@yield('ActiveFacebook')"><a href="https://www.facebook.com/profile.php?id=1240106770" target="_blank"><img class="facebook" src="/images/facebook.png"></a></li>
@@ -27,7 +28,7 @@
             <li class="@yield('ActiveContact')"><a href="/contact">Contact</a></li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-right">
             @if (Auth::check())
 
             <li class="dropdown">

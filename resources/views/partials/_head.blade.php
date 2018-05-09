@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <!-- Google fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
 
 
 

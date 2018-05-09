@@ -4,7 +4,7 @@
 @section('content')
 
 
-    <div class="container">
+    <div class="container" id="contact">
 
       <div class="row">
         <div class="col-sm-4 col-sm-pull-2">
